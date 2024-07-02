@@ -12,7 +12,7 @@ def button_click(number):
     e.delete(0, END)
     e.insert(0, number)
 
-# Defined the buttons
+# Defined the buttons to use
 
 button_1 = Button(root, text="1", padx=80, pady=20, command=lambda :button_click(1) ) #To run the number for each function we need a lambada
 button_2 = Button(root, text="2", padx=40, pady=20, command=lambda :button_click(2) )
