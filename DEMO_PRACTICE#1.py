@@ -9,8 +9,27 @@ e.grid(column=0, row=0, columnspan=3, padx=10, pady=10)
 #e.insert(0, "Enter your name")
 
 def button_click(number):
+
+    current = e.get()
     e.delete(0, END)
-    e.insert(0, number)
+    e.insert(0, str(current) + str(number))
+def button_clear():
+    e.delete(0, END)
+
+def button_add():
+    first_number = e.get()
+    global f_num
+    f_num = int(first_number)
+    e.delete(0, END)
+
+def button_equal():
+    second_number = e.get() # This is going to pull whatever is in that textbox
+    e.delete(0, END)
+    e.insert(0,f_num + int(second_number))
+
+
+
+
 
 # Defined the buttons to use
 
@@ -24,12 +43,12 @@ button_7 = Button(root, text="7", padx=80, pady=20, command=lambda :button_click
 button_8 = Button(root, text="8", padx=40, pady=20, command=lambda :button_click(8) )
 button_9 = Button(root, text="9", padx=40, pady=20, command=lambda :button_click(9) )
 button_0 = Button(root, text="0", padx=80, pady=20, command=lambda :button_click(0) )
-enter_button = Button(root, text="=", padx=80,pady=30,command=lambda :button_click())
-add_button = Button(root, text="+", padx=40,pady=20,command=lambda :button_click())
+enter_button = Button(root, text="=", padx=80,pady=30,command=button_equal)
+add_button = Button(root, text="+", padx=40,pady=20,command=button_add)
 subtract_button = Button(root, text="-", padx=40,pady=20,command=lambda :button_click())
 divide_button = Button(root, text="/", padx=40,pady=20,command=lambda :button_click())
-clear_button = Button(root, text="C", padx=80,pady=30,command=lambda :button_click())
-
+clear_button = Button(root, text="C", padx=80,pady=30,command=button_clear)
+multiply_button = Button(root,text="*",padx=80,pady=30,command=lambda :button_click())
 
 #Put the buttons on the screen
 
@@ -50,6 +69,7 @@ button_0.grid(row=4, column=0)
 enter_button.grid(row=5, column=0)
 add_button.grid(row=4, column=1)
 subtract_button.grid(row=4, column=2)
+multiply_button.grid(row=5, column=2)
 divide_button.grid(row=5, column=2)
 clear_button.grid(row=5, column=1)
 
