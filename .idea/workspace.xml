@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="Part 1 of the Tkinter Python Calculator so far what we have is the buttons now we just have to make them functional and continue the process" />
+    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719943504335</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs.">
+      <option name="closed" value="true" />
+      <created>1720010736496</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720010736496</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +142,7 @@
     <MESSAGE value="Buttons in tkinter" />
     <MESSAGE value="Inserting words in the text field and also arranging the buttons" />
     <MESSAGE value="Part 1 of the Tkinter Python Calculator so far what we have is the buttons now we just have to make them functional and continue the process" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 of the Tkinter Python Calculator so far what we have is the buttons now we just have to make them functional and continue the process" />
+    <MESSAGE value="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs." />
   </component>
 </project>
