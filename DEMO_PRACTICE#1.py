@@ -6,7 +6,7 @@ root.title("Izzy Calculator")
 e = Entry(root, width=90, borderwidth=5)
 e.grid(column=0, row=0, columnspan=3, padx=10, pady=10)
 
-#e.insert(0, "Enter your name")
+
 
 def button_click(number):
 

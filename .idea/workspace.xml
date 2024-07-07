@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs.">
+    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects">
+      <change afterPath="$PROJECT_DIR$/API_Practice_Demo_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" afterDir="false" />
     </list>
@@ -44,14 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.API_PRACTICE_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.DEMO_PRACTICE#1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.API_PRACTICE_1.executor": "Run",
+    "Python.API_Practice_Demo_1.executor": "Run",
+    "Python.DEMO_PRACTICE#1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -132,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720010736496</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects">
+      <option name="closed" value="true" />
+      <created>1720121671716</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720121671716</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,6 +153,7 @@
     <MESSAGE value="Inserting words in the text field and also arranging the buttons" />
     <MESSAGE value="Part 1 of the Tkinter Python Calculator so far what we have is the buttons now we just have to make them functional and continue the process" />
     <MESSAGE value="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs." />
+    <MESSAGE value="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects" />
   </component>
 </project>
