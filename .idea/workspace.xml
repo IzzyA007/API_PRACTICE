@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="A complete weather app API with the city and temp and weather conditons all in place and they are being called from OpenWeatherAPI">
-      <change afterPath="$PROJECT_DIR$/Weather_APP.py" afterDir="false" />
+    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Practice_Demo_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Practice_Weather_App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather_APP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Weather_APP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     &quot;Python.API_PRACTICE_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.API_Practice_Demo_1.executor&quot;: &quot;Run&quot;,
     &quot;Python.DEMO_PRACTICE#1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Weather_APP.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
@@ -149,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720364886577</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API">
+      <option name="closed" value="true" />
+      <created>1720447577800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720447577800</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +173,7 @@
     <MESSAGE value="Part 2 of the Tkinter Python Calculator so far what we have is functional buttons and the plus and equal sign working for us and adding functions to run a command so that the code runs." />
     <MESSAGE value="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects" />
     <MESSAGE value="A complete weather app API with the city and temp and weather conditons all in place and they are being called from OpenWeatherAPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="A complete weather app API with the city and temp and weather conditons all in place and they are being called from OpenWeatherAPI" />
+    <MESSAGE value="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API" />
   </component>
 </project>
