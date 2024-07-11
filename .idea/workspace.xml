@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API">
+    <list default="true" id="fc950c5b-cf80-44b8-aaa3-c17ef3060e10" name="Changes" comment="Updated Weather App Mostly complete I can add pictures if I want to which would be cool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_Practice_Demo_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/API_Practice_Weather_App.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DEMO_PRACTICE#1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator_Practice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Weather_APP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Weather_APP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720447577800</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated Weather App Mostly complete I can add pictures if I want to which would be cool">
+      <option name="closed" value="true" />
+      <created>1720665728353</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720665728353</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +180,7 @@
     <MESSAGE value="Part 3 of the Tkinter Python Calculator The calculator is completed and overall looks good and works well can change somethings around but thats to be extra overall easy and nice to get the hang of tkinter to work on other projects" />
     <MESSAGE value="A complete weather app API with the city and temp and weather conditons all in place and they are being called from OpenWeatherAPI" />
     <MESSAGE value="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the first part of the Tkinter Project right now I have laid the blueprint for the textbox and button and title where I stoped is where I would make the input of the user from the text box go to API" />
+    <MESSAGE value="Updated Weather App Mostly complete I can add pictures if I want to which would be cool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Weather App Mostly complete I can add pictures if I want to which would be cool" />
   </component>
 </project>

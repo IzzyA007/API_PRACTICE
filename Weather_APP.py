@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 import requests
 import json
+from PIL import Image, ImageTk
+import io
 
 def City_input():
     city_name = txt_box.get().strip()
@@ -32,6 +34,16 @@ def display_weather(weather_data):
                     f"Humidity: {humidity}%\n"
                     f"Wind Speed: {wind_speed} mph")
 
+    icon_id = weather_data['weather'][0]['icon']
+    icon_url = f"http://openweathermap.org/img/wn/{icon_id}@2x.png"
+    icon_response = requests.get(icon_url)
+    icon_image = Image.open(io.BytesIO(icon_response.content))
+    icon_photo = ImageTk.PhotoImage(icon_image)
+
+    # Display weather icon
+    weather_icon_label.config(image=icon_photo)
+    weather_icon_label.image = icon_photo
+
     weather_label.config(text=weather_info)
 
 root = tk.Tk()
@@ -49,5 +61,9 @@ button_1.pack()
 
 weather_label = tk.Label(root, text="", font=("Courier", 12))
 weather_label.pack()
+
+# Create label to display weather icon
+weather_icon_label = tk.Label(root)
+weather_icon_label.pack(pady=10)
 
 root.mainloop()  # This runs the application and keeps it going
